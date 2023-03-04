@@ -1,0 +1,79 @@
+.storybook-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 1;
+  border: 0;
+  transition: background-color 0.3s ease-in-out;
+  align-items: center;
+  display: flex;
+}
+
+
+.storybook-button--text {
+  color: black;
+  align-items: center;
+  display: flex;
+  background-color: transparent;
+}
+
+
+.storybook-button--contained {
+  color: #333;
+  background-color: rgb(1, 204, 245);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  align-items: center;
+  display: flex;
+}
+.storybook-button--outlined {
+  color: #333;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  align-items: center;
+  display: flex;
+}
+
+.storybook-button--small {
+  font-size: 12px;
+  align-items: center;
+  display: flex;
+  padding: 11px 20px;
+
+}
+
+.storybook-button--medium {
+  font-size: 18px;
+  padding: 14px 23px;
+  align-items: center;
+  display: flex;
+}
+
+.storybook-button--large {
+  font-size: 16px;
+  align-items: center;
+  display: flex;
+  padding: 12px 24px;
+}
+
+
+.button-with-icons {
+  transition: background-color 0.3s ease-in-out;
+  align-items: center;
+  display: flex;
+  padding: 0.5rem 1rem;
+}
+
+
+
+.button-with-icons i {
+  margin-right: 0.5rem;
+  align-items: center;
+  display: flex;
+
+}
+
+.button-with-icons i:last-child {
+  margin-right: 0;
+  margin-left: 0.5rem;
+  align-items: center;
+  display: flex;
+}
